@@ -1,0 +1,5 @@
+<?php
+interface DocumentState {
+    public function handle(Document $document): void;
+    public function getName(): string;
+}
